@@ -4,7 +4,7 @@ import {shallow} from 'enzyme';
 
 import App from 'components/App';
 import InvoicesList from 'components/InvoicesList';
-import InvoiceInput from "components/InvoiceInput";
+import InvoiceInput from "components/invoiceInput/InvoiceInput";
 
 
 describe("App test", () => {

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import InvoiceInput from 'components/InvoiceInput';
+import InvoiceInput from 'components/invoiceInput/InvoiceInput';
 import InvoicesList from 'components/InvoicesList';
 import Invoice from 'components/Invoice';
 
