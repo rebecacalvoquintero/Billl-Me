@@ -2,12 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {shallow} from 'enzyme';
 
-import App from '../App';
-import InvoicesList from '../InvoicesList';
-import AddInvoice from "../AddInvoice";
+import App from 'components/App';
+import InvoicesList from 'components/InvoicesList';
+import InvoiceInput from "components/InvoiceInput";
 
 
 describe("App test", () => {
+    let wrapped;
+
+    beforeEach(() => {
+
+        wrapped = shallow(<App/>);
+    })
 
     it('shows the title of the App', () => {
         const title = document.createElement('h2');
@@ -17,15 +23,12 @@ describe("App test", () => {
     });
 
     it('contains the list of invoices', () => {
-        const wrapped = shallow(<App/>);
 
         expect(wrapped.find(InvoicesList).length).toEqual(1);
     });
 
     it('contains the add Invoice Componenr', () => {
-        const wrapped = shallow(<App/>);
-
-        expect(wrapped.find(AddInvoice).length).toEqual(1);
+        expect(wrapped.find(InvoiceInput).length).toEqual(1);
     });
 
 })

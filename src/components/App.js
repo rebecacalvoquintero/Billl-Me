@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 
-import AddInvoice from './AddInvoice';
-import InvoicesList from './InvoicesList';
-import Invoice from './Invoice';
+import InvoiceInput from 'components/InvoiceInput';
+import InvoicesList from 'components/InvoicesList';
+import Invoice from 'components/Invoice';
 
 import '../App.css';
 
@@ -13,7 +13,7 @@ class App extends Component {
                 <header className="App-header">
                     <h2>Invoice App</h2>
                 </header>
-                <AddInvoice/>
+                <InvoiceInput/>
                 <InvoicesList/>
             </div>
         );
