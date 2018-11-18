@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 
-import InvoiceInput from 'components/invoiceInput/InvoiceInput';
-import InvoicesList from 'components/InvoicesList';
-import Invoice from 'components/Invoice';
+import InvoicesList from 'invoicesList/InvoicesList';
+import Invoice from 'Invoice';
 
-import '../App.css';
+import './App.css';
+import InvoiceInputContainer from "./invoiceInput/InvoiceInputContainer";
 
 class App extends Component {
     render() {
@@ -13,7 +13,7 @@ class App extends Component {
                 <header className="App-header">
                     <h2>Invoice App</h2>
                 </header>
-                <InvoiceInput/>
+                <InvoiceInputContainer/>
                 <InvoicesList/>
             </div>
         );
@@ -21,3 +21,4 @@ class App extends Component {
 }
 
 export default App;
+

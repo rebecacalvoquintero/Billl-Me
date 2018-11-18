@@ -2,12 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e876b9ea-3fc6-4d05-8f31-96660f103853" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/TestUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__tests__/invoiceInput/InvoiceInput.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/Actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ImmutableToJs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/invoiceInput/InvoiceInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/invoiceInput/InvoiceInputActionCreator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/invoiceInput/InvoiceInputContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/invoiceInput/InvoiceInputReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/invoiceInput/InvoiceInputThunkActionCreator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/Reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AddInvoice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InvoiceInput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/__tests__/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/__tests__/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Invoice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Invoice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InvoicesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/invoicesList/InvoicesList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/__tests__/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__tests__/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/invoiceInput/InvoiceInput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/invoiceInput/invoiceInput.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/invoiceInput/invoiceInput.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,12 +34,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/App.js">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-              <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="240">
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="31" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -33,22 +45,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.css">
+      <file leaf-file-name="InvoiceInputReducer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/invoiceInput/InvoiceInputReducer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="285">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/__tests__/App.test.js">
+      <file leaf-file-name="App.test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/__tests__/App.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-              <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+            <state relative-caret-position="390">
+              <caret line="26" column="2" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -56,50 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
+      <file leaf-file-name="InvoiceInputContainer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/invoiceInput/InvoiceInputContainer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret selection-end-column="100" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InvoicesList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/InvoicesList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="41" selection-start-column="41" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Invoice.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Invoice.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="41" selection-start-column="41" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InvoiceInput.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/InvoiceInput.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+            <state relative-caret-position="300">
+              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="38" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -107,14 +81,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="InvoiceInputThunkActionCreator.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/invoiceInput/InvoiceInputThunkActionCreator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvoiceInputActionCreator.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/invoiceInput/InvoiceInputActionCreator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#100#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reducer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/Reducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>loaders</find>
+      <find>exclude</find>
+      <find>styleLoa</find>
+      <find>use</find>
+      <find>rules</find>
+      <find>sass</find>
+    </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
@@ -137,16 +144,37 @@
       <list>
         <option value="$PROJECT_DIR$/src/components/Invoice.js" />
         <option value="$PROJECT_DIR$/src/components/InvoicesList.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/App.test.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/setupTests.js" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/AddInvoice.js" />
+        <option value="$PROJECT_DIR$/src/components/InvoiceInput.js" />
+        <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/components/App.js" />
         <option value="$PROJECT_DIR$/src/components/__tests__/App.test.js" />
-        <option value="$PROJECT_DIR$/src/components/InvoiceInput.js" />
+        <option value="$PROJECT_DIR$/config/webpack.config.dev.js" />
+        <option value="$PROJECT_DIR$/src/components/invoiceInput/invoiceInput.scss" />
+        <option value="$PROJECT_DIR$/src/components/__tests__/TestUtils.js" />
+        <option value="$PROJECT_DIR$/src/components/invoiceInput/InvoiceInputReducer.js" />
+        <option value="$PROJECT_DIR$/src/components/__tests__/InvoiceInput.test.js" />
+        <option value="$PROJECT_DIR$/src/components/invoiceInput/InvoiceInput.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/components/reducers/Reducer.js" />
+        <option value="$PROJECT_DIR$/__tests__/invoiceInput/InvoiceInput.test.js" />
+        <option value="$PROJECT_DIR$/__tests__/App.test.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/components/__tests__/invoiceInput/InvoiceInput.test.js" />
+        <option value="$PROJECT_DIR$/src/__tests__/invoiceInput/InvoiceInput.test.js" />
+        <option value="$PROJECT_DIR$/src/reducers/Reducer.js" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/src/invoiceInput/InvoiceInputActionCreator.js" />
+        <option value="$PROJECT_DIR$/src/actions/Actions.js" />
+        <option value="$PROJECT_DIR$/src/invoiceInput/InvoiceInputReducer.js" />
+        <option value="$PROJECT_DIR$/src/components/ImmutableToJs.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/invoiceInput/InvoiceInputThunkActionCreator.js" />
+        <option value="$PROJECT_DIR$/src/invoiceInput/InvoiceInputContainer.js" />
+        <option value="$PROJECT_DIR$/src/__tests__/App.test.js" />
       </list>
     </option>
   </component>
@@ -191,7 +219,19 @@
               <item name="Bill-Me" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bill-Me" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bill-Me" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bill-Me" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="invoiceInput" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bill-Me" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bill-Me" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="invoicesList" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -210,11 +250,16 @@
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Groovy compiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/__tests__" />
+      <recent name="$PROJECT_DIR$/src/invoicesList" />
       <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/__tests__/invoiceInput" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -229,7 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.App test">
+  <component name="RunManager" selected="Jest.Invoice Input.when submitting, the form is cleared">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -249,48 +294,63 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="App test" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+    <configuration name="Invoice Input" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/components/__tests__/App.test.js" />
+      <test-file value="$PROJECT_DIR$/src/components/__tests__/InvoiceInput.test.js" />
       <test-names>
-        <test-name value="App test" />
+        <test-name value="Invoice Input" />
       </test-names>
     </configuration>
-    <configuration name="contains the add Invoice Componenr" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+    <configuration name="Invoice Input.contains 2 datePickers input where you can select the date from, 2 input and one button" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/__tests__/App.test.js" />
+      <test-file value="$PROJECT_DIR$/src/components/__tests__/InvoiceInput.test.js" />
       <test-names>
-        <test-name value="contains the add Invoice Componenr" />
+        <test-name value="Invoice Input" />
+        <test-name value="contains 2 datePickers input where you can select the date from, 2 input and one button" />
       </test-names>
     </configuration>
-    <configuration name="contains the list of invoices" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+    <configuration name="Invoice Input.contains 2 datePickers input, 2 input and one button" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/__tests__/App.test.js" />
+      <test-file value="$PROJECT_DIR$/src/components/__tests__/InvoiceInput.test.js" />
       <test-names>
-        <test-name value="contains the list of invoices" />
+        <test-name value="Invoice Input" />
+        <test-name value="contains 2 datePickers input, 2 input and one button" />
       </test-names>
     </configuration>
-    <configuration name="renders without crashing" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+    <configuration name="Invoice Input.contains a datePicker input where users can select the date when the invoice starts" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/App.test.js" />
+      <test-file value="$PROJECT_DIR$/src/components/__tests__/InvoiceInput.test.js" />
       <test-names>
-        <test-name value="renders without crashing" />
+        <test-name value="Invoice Input" />
+        <test-name value="contains a datePicker input where users can select the date when the invoice starts" />
+      </test-names>
+    </configuration>
+    <configuration name="Invoice Input.when submitting, the form is cleared" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/__tests__/InvoiceInput.test.js" />
+      <test-names>
+        <test-name value="Invoice Input" />
+        <test-name value="when submitting, the form is cleared" />
       </test-names>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -316,17 +376,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Jest.renders without crashing" />
-      <item itemvalue="Jest.contains the list of invoices" />
-      <item itemvalue="Jest.contains the add Invoice Componenr" />
-      <item itemvalue="Jest.App test" />
+      <item itemvalue="Jest.Invoice Input.contains 2 datePickers input where you can select the date from, 2 input and one button" />
+      <item itemvalue="Jest.Invoice Input" />
+      <item itemvalue="Jest.Invoice Input.contains 2 datePickers input, 2 input and one button" />
+      <item itemvalue="Jest.Invoice Input.contains a datePicker input where users can select the date when the invoice starts" />
+      <item itemvalue="Jest.Invoice Input.when submitting, the form is cleared" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.App test" />
-        <item itemvalue="Jest.contains the add Invoice Componenr" />
-        <item itemvalue="Jest.contains the list of invoices" />
-        <item itemvalue="Jest.renders without crashing" />
+        <item itemvalue="Jest.Invoice Input.when submitting, the form is cleared" />
+        <item itemvalue="Jest.Invoice Input" />
+        <item itemvalue="Jest.Invoice Input.contains a datePicker input where users can select the date when the invoice starts" />
+        <item itemvalue="Jest.Invoice Input.contains 2 datePickers input, 2 input and one button" />
+        <item itemvalue="Jest.Invoice Input.contains 2 datePickers input where you can select the date from, 2 input and one button" />
       </list>
     </recent_temporary>
   </component>
@@ -341,44 +403,52 @@
       <option name="presentableId" value="Default" />
       <updated>1542548992391</updated>
       <workItem from="1542549028758" duration="4432000" />
-      <workItem from="1542554326586" duration="2381000" />
+      <workItem from="1542554326586" duration="23953000" />
     </task>
+    <task id="LOCAL-00001" summary="Imported scss for the style of the project">
+      <created>1542564046966</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542564046966</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="renders_without_crashing - 2018.11.18 at 13h 57m 38s.xml">
-      <configuration name="renders without crashing" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Invoice_Input_contains_2_datePickers_input,_2_input_and_one_button - 2018.11.18 at 19h 52m 33s.xml">
+      <configuration name="Invoice Input.contains 2 datePickers input, 2 input and one button" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="renders_without_crashing - 2018.11.18 at 13h 58m 05s.xml">
-      <configuration name="renders without crashing" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Invoice_Input_contains_2_datePickers_input,_2_input_and_one_button - 2018.11.18 at 19h 53m 35s.xml">
+      <configuration name="Invoice Input.contains 2 datePickers input, 2 input and one button" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="contains_the_list_of_invoices - 2018.11.18 at 15h 05m 03s.xml">
-      <configuration name="contains the list of invoices" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Invoice_Input_contains_a_datePicker_input_where_users_can_select_the_date_when_the_invoice_starts - 2018.11.18 at 19h 53m 38s.xml">
+      <configuration name="Invoice Input.contains a datePicker input where users can select the date when the invoice starts" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="contains_the_list_of_invoices - 2018.11.18 at 15h 06m 13s.xml">
-      <configuration name="contains the list of invoices" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Invoice_Input_contains_a_datePicker_input_where_users_can_select_the_date_when_the_invoice_starts - 2018.11.18 at 19h 54m 32s.xml">
+      <configuration name="Invoice Input.contains a datePicker input where users can select the date when the invoice starts" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="contains_the_list_of_invoices - 2018.11.18 at 15h 07m 33s.xml">
-      <configuration name="contains the list of invoices" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Invoice_Input_contains_a_datePicker_input_where_users_can_select_the_date_when_the_invoice_starts - 2018.11.18 at 19h 54m 34s.xml">
+      <configuration name="Invoice Input.contains a datePicker input where users can select the date when the invoice starts" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="contains_the_list_of_invoices - 2018.11.18 at 15h 08m 57s.xml">
-      <configuration name="contains the list of invoices" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Invoice_Input_contains_a_datePicker_input_where_users_can_select_the_date_when_the_invoice_starts - 2018.11.18 at 19h 55m 04s.xml">
+      <configuration name="Invoice Input.contains a datePicker input where users can select the date when the invoice starts" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="contains_the_list_of_invoices - 2018.11.18 at 15h 09m 25s.xml">
-      <configuration name="contains the list of invoices" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Invoice_Input_contains_a_datePicker_input_where_users_can_select_the_date_when_the_invoice_starts - 2018.11.18 at 19h 58m 15s.xml">
+      <configuration name="Invoice Input.contains a datePicker input where users can select the date when the invoice starts" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="contains_the_list_of_invoices - 2018.11.18 at 15h 11m 09s.xml">
-      <configuration name="contains the list of invoices" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Invoice_Input_contains_a_datePicker_input_where_users_can_select_the_date_when_the_invoice_starts - 2018.11.18 at 19h 58m 19s.xml">
+      <configuration name="Invoice Input.contains a datePicker input where users can select the date when the invoice starts" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="contains_the_add_Invoice_Componenr - 2018.11.18 at 15h 11m 15s.xml">
-      <configuration name="contains the add Invoice Componenr" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Invoice_Input - 2018.11.18 at 20h 16m 55s.xml">
+      <configuration name="Invoice Input" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="App_test - 2018.11.18 at 15h 12m 45s.xml">
-      <configuration name="App test" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Invoice_Input_when_submitting,_the_form_is_cleared - 2018.11.18 at 20h 17m 04s.xml">
+      <configuration name="Invoice Input.when submitting, the form is cleared" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6813000" />
+    <option name="totallyTimeSpent" value="28385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="941" extended-state="6" />
@@ -393,12 +463,13 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4141291" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32886723" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -410,7 +481,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="0" />
@@ -448,19 +518,20 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Imported scss for the style of the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Imported scss for the style of the project" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/App.js">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="16" column="29" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -471,7 +542,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/__tests__/App.test.js">
+    <entry file="file://$PROJECT_DIR$/src/__tests__/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
@@ -481,26 +552,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/InvoicesList.js">
+    <entry file="file://$PROJECT_DIR$/src/invoicesList/InvoicesList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="41" lean-forward="true" selection-start-column="41" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Invoice.js">
+    <entry file="file://$PROJECT_DIR$/src/Invoice.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="41" selection-start-column="41" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/InvoiceInput.js">
+    <entry file="file://$PROJECT_DIR$/src/invoiceInput/InvoiceInput.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#2112#2418#0" />
+            <element signature="e#2443#2749#0" />
           </folding>
         </state>
       </provider>
@@ -513,42 +586,28 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.test.js" />
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/setupTests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Invoice.js">
+    <entry file="file://$PROJECT_DIR$/src/invoicesList/InvoicesList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="41" selection-start-column="41" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/InvoicesList.js">
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.config.dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="292" column="36" selection-start-line="292" selection-start-column="32" selection-end-line="292" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Invoice.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="41" selection-start-column="41" selection-end-column="41" />
@@ -565,42 +624,162 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/App.js">
+    <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="30">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/invoiceInput/invoiceInput.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/invoiceInput/InvoiceInput.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#2112#2418#0" />
+            <element signature="e#2443#2749#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/__tests__/App.test.js">
+    <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        <state relative-caret-position="365">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/Reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__tests__/invoiceInput/InvoiceInput.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#308#324#0" />
+            <element signature="e#563#571#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/invoiceInput/InvoiceInputActionCreator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ImmutableToJs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/InvoiceInput.js">
+    <entry file="file://$PROJECT_DIR$/src/setupTests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+        <state relative-caret-position="45">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/Actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/invoiceInput/InvoiceInputThunkActionCreator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/invoiceInput/InvoiceInputReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/invoiceInput/InvoiceInputContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="38" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/__tests__/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="2" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

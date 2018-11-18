@@ -1,12 +1,36 @@
+import 'babel-polyfill';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from 'components/App';
-import * as serviceWorker from './serviceWorker';
+import App from 'App';
+import {Provider} from 'react-redux';
+import {composeWithDevTools} from 'redux-devtools-extension';
+import {reducers} from 'reducers/Reducer';
+import {applyMiddleware, createStore} from 'redux';
+import thunk from 'redux-thunk';
+import {createBrowserHistory} from 'history';
+import {ConnectedRouter, routerMiddleware} from 'react-router-redux';
+import {combineReducers} from 'redux-immutable';
+import Immutable from 'immutable';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const history = createBrowserHistory();
+const reactRouterMiddleware = routerMiddleware(history);
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
-serviceWorker.unregister();
+let initialState = Immutable.Map();
+let store = createStore(
+    combineReducers({...reducers}),
+    initialState,
+    composeWithDevTools(applyMiddleware(thunk, reactRouterMiddleware)));
+
+class Index extends React.Component {
+    render() {
+        return (
+            <Provider store={store}>
+                <ConnectedRouter history={history}>
+                    <App/>
+                </ConnectedRouter>
+            </Provider>
+        );
+    }
+}
+
+ReactDOM.render(<Index/>, document.getElementById('root'));
